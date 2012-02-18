@@ -87,7 +87,7 @@ module CloudClient
 
         if url.scheme=='https'
             http.use_ssl = true
-            http.verify_mode=OpenSSL::SSL::VERIFY_NONE
+            http.verify_mode=OpenSSL::SSL::VERIFY_PEER
         end
 
         begin
@@ -116,7 +116,7 @@ module CloudClient
     # The Error Class represents a generic error in the Cloud Client
     # library. It contains a readable representation of the error.
     # #########################################################################
-    class Error
+    class Error < StandardError
         attr_reader :message
 
         # +message+ a description of the error
