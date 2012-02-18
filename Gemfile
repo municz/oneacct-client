@@ -8,4 +8,6 @@ gem "nokogiri"
 
 group :test do
   gem "test-unit"
+  gem "vcr"
+  gem "webmock"
 end

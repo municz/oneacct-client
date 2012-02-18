@@ -1,0 +1,1652 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://oneadmin:34c629abfcb47856b3d1c0a30798221aefb61605@localhost:3000/xml
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      x-frame-options:
+      - sameorigin
+      x-xss-protection:
+      - 1; mode=block
+      content-type:
+      - text/html;charset=utf-8
+      content-length:
+      - '140780'
+      server:
+      - WEBrick/1.3.1 (Ruby/1.9.2/2011-07-09)
+      date:
+      - Sat, 18 Feb 2012 17:38:32 GMT
+    body: ! "<user id=\"5\">\n  <vm id=\"0\">\n    <name></name>\n    <time>7668</time>\n
+      \   <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>23</net_rx>\n    <net_tx>3020</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>0</vm_id>\n      <hid>1</hid>\n      <hostname>aule</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1318840290</pstime>\n      <petime>1318840404</petime>\n
+      \     <rstime>1318840404</rstime>\n      <retime>1318848072</retime>\n      <estime>1318848072</estime>\n
+      \     <eetime>1318848076</eetime>\n      <reason>0</reason>\n      <id>0</id>\n
+      \     <name>one-0</name>\n      <uid>5</uid>\n      <gid>1</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318840264</stime>\n
+      \     <etime>1318848076</etime>\n    </slice>\n  </vm>\n  <vm id=\"1\">\n    <name></name>\n
+      \   <time>1270</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>14</net_rx>\n
+      \   <net_tx>389</net_tx>\n    <slice seq=\"0\">\n      <vm_id>1</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318848418</pstime>\n
+      \     <petime>1318848517</petime>\n      <rstime>1318848517</rstime>\n      <retime>1318849787</retime>\n
+      \     <estime>1318849787</estime>\n      <eetime>1318849804</eetime>\n      <reason>0</reason>\n
+      \     <id>1</id>\n      <name>one-1</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318848405</stime>\n
+      \     <etime>1318849817</etime>\n    </slice>\n  </vm>\n  <vm id=\"4\">\n    <name></name>\n
+      \   <time>3734</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>142</net_rx>\n
+      \   <net_tx>11274</net_tx>\n    <slice seq=\"0\">\n      <vm_id>4</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318852068</pstime>\n
+      \     <petime>1318852192</petime>\n      <rstime>1318852192</rstime>\n      <retime>1318855926</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>4</id>\n      <name>asdfhgj_1</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318852038</stime>\n
+      \     <etime>1318855926</etime>\n    </slice>\n  </vm>\n  <vm id=\"5\">\n    <name></name>\n
+      \   <time>3656</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>133</net_rx>\n
+      \   <net_tx>11276</net_tx>\n    <slice seq=\"0\">\n      <vm_id>5</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318852117</pstime>\n
+      \     <petime>1318852270</petime>\n      <rstime>1318852270</rstime>\n      <retime>1318855926</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>5</id>\n      <name>asdfhgj_0</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318852038</stime>\n
+      \     <etime>1318855926</etime>\n    </slice>\n  </vm>\n  <vm id=\"8\">\n    <name></name>\n
+      \   <time>4334</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>162</net_rx>\n
+      \   <net_tx>14915</net_tx>\n    <slice seq=\"0\">\n      <vm_id>8</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318941918</pstime>\n
+      \     <petime>1318941987</petime>\n      <rstime>1318941987</rstime>\n      <retime>1318946321</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>8</id>\n      <name>hmmm_1</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318941914</stime>\n
+      \     <etime>1318946322</etime>\n    </slice>\n  </vm>\n  <vm id=\"9\">\n    <name></name>\n
+      \   <time>4084</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>126</net_rx>\n
+      \   <net_tx>15299</net_tx>\n    <slice seq=\"0\">\n      <vm_id>9</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318941972</pstime>\n
+      \     <petime>1318942238</petime>\n      <rstime>1318942238</rstime>\n      <retime>1318946322</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>9</id>\n      <name>hmmm_0</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318941915</stime>\n
+      \     <etime>1318946324</etime>\n    </slice>\n  </vm>\n  <vm id=\"10\">\n    <name></name>\n
+      \   <time>4026</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>119</net_rx>\n
+      \   <net_tx>15336</net_tx>\n    <slice seq=\"0\">\n      <vm_id>10</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318942014</pstime>\n
+      \     <petime>1318942294</petime>\n      <rstime>1318942294</rstime>\n      <retime>1318946320</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>10</id>\n      <name>hmmm_3</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318941915</stime>\n
+      \     <etime>1318946321</etime>\n    </slice>\n  </vm>\n  <vm id=\"11\">\n    <name></name>\n
+      \   <time>107</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>11</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318942055</pstime>\n
+      \     <petime>1318942353</petime>\n      <rstime>1318942353</rstime>\n      <retime>1318942414</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>11</id>\n      <name>hmmm_4</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318941915</stime>\n
+      \     <etime>1318946322</etime>\n    </slice>\n    <slice seq=\"1\">\n      <vm_id>11</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>1</seq>\n      <pstime>1318946013</pstime>\n
+      \     <petime>1318946126</petime>\n      <rstime>1318946126</rstime>\n      <retime>1318946172</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>11</id>\n      <name>hmmm_4</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318941915</stime>\n
+      \     <etime>1318946322</etime>\n    </slice>\n  </vm>\n  <vm id=\"12\">\n    <name></name>\n
+      \   <time>343</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>12</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318942101</pstime>\n
+      \     <petime>1318942370</petime>\n      <rstime>1318942370</rstime>\n      <retime>1318942552</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>12</id>\n      <name>hmmm_2</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318941915</stime>\n
+      \     <etime>1318946322</etime>\n    </slice>\n    <slice seq=\"1\">\n      <vm_id>12</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>1</seq>\n      <pstime>1318946052</pstime>\n
+      \     <petime>1318946150</petime>\n      <rstime>1318946150</rstime>\n      <retime>1318946311</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>12</id>\n      <name>hmmm_2</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318941915</stime>\n
+      \     <etime>1318946322</etime>\n    </slice>\n  </vm>\n  <vm id=\"13\">\n    <name></name>\n
+      \   <time>162</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>13</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318948138</pstime>\n
+      \     <petime>1318948278</petime>\n      <rstime>1318948278</rstime>\n      <retime>1318948440</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>13</id>\n      <name>hmmm_2</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318948118</stime>\n
+      \     <etime>1318950276</etime>\n    </slice>\n  </vm>\n  <vm id=\"14\">\n    <name></name>\n
+      \   <time>153</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>14</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318948177</pstime>\n
+      \     <petime>1318948480</petime>\n      <rstime>1318948480</rstime>\n      <retime>1318948633</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>14</id>\n      <name>hmmm_0</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318948124</stime>\n
+      \     <etime>1318950276</etime>\n    </slice>\n  </vm>\n  <vm id=\"15\">\n    <name></name>\n
+      \   <time>254</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>15</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318948225</pstime>\n
+      \     <petime>1318948542</petime>\n      <rstime>1318948542</rstime>\n      <retime>1318948796</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>15</id>\n      <name>hmmm_3</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318948124</stime>\n
+      \     <etime>1318950277</etime>\n    </slice>\n  </vm>\n  <vm id=\"16\">\n    <name></name>\n
+      \   <time>409</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>16</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318948266</pstime>\n
+      \     <petime>1318948576</petime>\n      <rstime>1318948576</rstime>\n      <retime>1318948985</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>16</id>\n      <name>hmmm_1</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318948124</stime>\n
+      \     <etime>1318950276</etime>\n    </slice>\n  </vm>\n  <vm id=\"17\">\n    <name></name>\n
+      \   <time>726</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>17</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318948309</pstime>\n
+      \     <petime>1318948585</petime>\n      <rstime>1318948585</rstime>\n      <retime>1318949311</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>17</id>\n      <name>hmmm_4</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318948126</stime>\n
+      \     <etime>1318950277</etime>\n    </slice>\n  </vm>\n  <vm id=\"31\">\n    <name></name>\n
+      \   <time>1329586712</time>\n    <cpu>0.2</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>31</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>0</pstime>\n
+      \     <petime>1320330321</petime>\n      <rstime>0</rstime>\n      <retime>0</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>31</id>\n      <name>eco-vm</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>256</mem>\n      <cpu>0.2</cpu>\n      <vcpu>0</vcpu>\n      <stime>1320152688</stime>\n
+      \     <etime>1320330321</etime>\n    </slice>\n  </vm>\n  <vm id=\"41\">\n    <name></name>\n
+      \   <time>2</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>41</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321270949</pstime>\n
+      \     <petime>1321271065</petime>\n      <rstime>1321271065</rstime>\n      <retime>1321271067</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>41</id>\n      <name>one-41</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321270923</stime>\n
+      \     <etime>1321271067</etime>\n    </slice>\n  </vm>\n  <vm id=\"42\">\n    <name></name>\n
+      \   <time>2098</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>42</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321273112</pstime>\n
+      \     <petime>1321273224</petime>\n      <rstime>1321273224</rstime>\n      <retime>1321275322</retime>\n
+      \     <estime>1321275322</estime>\n      <eetime>1321275322</eetime>\n      <reason>0</reason>\n
+      \     <id>42</id>\n      <name>x';DROP TABLE users; --</name>\n      <uid>5</uid>\n
+      \     <gid>1</gid>\n      <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1321273105</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"43\">\n    <name></name>\n    <time>1329586712</time>\n    <cpu>0.5</cpu>\n
+      \   <mem>512</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>43</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321274257</pstime>\n      <petime>1321274257</petime>\n
+      \     <rstime>0</rstime>\n      <retime>0</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>43</id>\n      <name>one-43</name>\n
+      \     <uid>5</uid>\n      <gid>1</gid>\n      <mem>512</mem>\n      <cpu>0.5</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321274249</stime>\n      <etime>1321274370</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"44\">\n    <name></name>\n    <time>464</time>\n
+      \   <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>44</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321274677</pstime>\n      <petime>1321274796</petime>\n
+      \     <rstime>1321274796</rstime>\n      <retime>1321275260</retime>\n      <estime>1321275260</estime>\n
+      \     <eetime>1321275260</eetime>\n      <reason>0</reason>\n      <id>44</id>\n
+      \     <name>one-44</name>\n      <uid>5</uid>\n      <gid>1</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321274660</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"45\">\n    <name></name>\n
+      \   <time>13994</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>45</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321347694</pstime>\n
+      \     <petime>1321347810</petime>\n      <rstime>1321347810</rstime>\n      <retime>1321361804</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>45</id>\n      <name>one-45</name>\n      <uid>5</uid>\n      <gid>1</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321347687</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"46\">\n    <name></name>\n
+      \   <time>3467</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>10</net_tx>\n    <slice seq=\"0\">\n      <vm_id>46</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321363234</pstime>\n
+      \     <petime>1321363297</petime>\n      <rstime>1321363297</rstime>\n      <retime>1321366764</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>46</id>\n      <name>one-46</name>\n      <uid>5</uid>\n      <gid>100</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321363228</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"99\">\n    <name></name>\n
+      \   <time>919</time>\n    <cpu>2.0</cpu>\n    <mem>768</mem>\n    <net_rx>3</net_rx>\n
+      \   <net_tx>4863</net_tx>\n    <slice seq=\"0\">\n      <vm_id>99</vm_id>\n
+      \     <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1322659455</pstime>\n      <petime>1322659478</petime>\n      <rstime>1322659478</rstime>\n
+      \     <retime>1322660397</retime>\n      <estime>1322660397</estime>\n      <eetime>1322660397</eetime>\n
+      \     <reason>0</reason>\n      <id>99</id>\n      <name>susetest2</name>\n
+      \     <uid>5</uid>\n      <gid>100</gid>\n      <mem>768</mem>\n      <cpu>2.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1322659434</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"100\">\n    <name></name>\n    <time>375264</time>\n
+      \   <cpu>2.0</cpu>\n    <mem>768</mem>\n    <net_rx>47695561</net_rx>\n    <net_tx>7954263786</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>100</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322661135</pstime>\n      <petime>1322661156</petime>\n
+      \     <rstime>1322661156</rstime>\n      <retime>1323036420</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>100</id>\n      <name>susetest2</name>\n
+      \     <uid>5</uid>\n      <gid>100</gid>\n      <mem>768</mem>\n      <cpu>2.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1322661130</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n</user>\n<user id=\"1\">\n  <vm id=\"2\">\n    <name></name>\n
+      \   <time>1203</time>\n    <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>1</net_rx>\n
+      \   <net_tx>386</net_tx>\n    <slice seq=\"0\">\n      <vm_id>2</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318848563</pstime>\n
+      \     <petime>1318848659</petime>\n      <rstime>1318848659</rstime>\n      <retime>1318849862</retime>\n
+      \     <estime>1318849862</estime>\n      <eetime>1318849864</eetime>\n      <reason>0</reason>\n
+      \     <id>2</id>\n      <name>vm_001</name>\n      <uid>1</uid>\n      <gid>1</gid>\n
+      \     <mem>256</mem>\n      <cpu>1.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1318848558</stime>\n
+      \     <etime>1318849864</etime>\n    </slice>\n  </vm>\n  <vm id=\"6\">\n    <name></name>\n
+      \   <time>413</time>\n    <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>6</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318853580</pstime>\n
+      \     <petime>1318853651</petime>\n      <rstime>1318853651</rstime>\n      <retime>1318854064</retime>\n
+      \     <estime>1318854064</estime>\n      <eetime>1318854068</eetime>\n      <reason>0</reason>\n
+      \     <id>6</id>\n      <name>one-6</name>\n      <uid>1</uid>\n      <gid>1</gid>\n
+      \     <mem>256</mem>\n      <cpu>1.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1318853566</stime>\n
+      \     <etime>1318854068</etime>\n    </slice>\n  </vm>\n  <vm id=\"84\">\n    <name></name>\n
+      \   <time>2050</time>\n    <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>11</net_tx>\n    <slice seq=\"0\">\n      <vm_id>84</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322137200</pstime>\n
+      \     <petime>1322137270</petime>\n      <rstime>1322137270</rstime>\n      <retime>1322139320</retime>\n
+      \     <estime>1322139320</estime>\n      <eetime>1322139321</eetime>\n      <reason>0</reason>\n
+      \     <id>84</id>\n      <name>one-84</name>\n      <uid>1</uid>\n      <gid>100</gid>\n
+      \     <mem>256</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1322137196</stime>\n
+      \     <etime>1322139321</etime>\n    </slice>\n  </vm>\n</user>\n<user id=\"0\">\n
+      \ <vm id=\"3\">\n    <name></name>\n    <time>5793</time>\n    <cpu>0.5</cpu>\n
+      \   <mem>512</mem>\n    <net_rx>530</net_rx>\n    <net_tx>39928</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>3</vm_id>\n      <hid>1</hid>\n      <hostname>aule</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1318849716</pstime>\n      <petime>1318849820</petime>\n
+      \     <rstime>1318849820</rstime>\n      <retime>1318855471</retime>\n      <estime>1318855471</estime>\n
+      \     <eetime>1318855473</eetime>\n      <reason>2</reason>\n      <id>3</id>\n
+      \     <name>one-3</name>\n      <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318849698</stime>\n
+      \     <etime>1318855771</etime>\n    </slice>\n    <slice seq=\"1\">\n      <vm_id>3</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>1</seq>\n      <pstime>1318855627</pstime>\n
+      \     <petime>1318855629</petime>\n      <rstime>1318855629</rstime>\n      <retime>1318855771</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>3</id>\n      <name>one-3</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318849698</stime>\n
+      \     <etime>1318855771</etime>\n    </slice>\n  </vm>\n  <vm id=\"7\">\n    <name></name>\n
+      \   <time>340</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>7</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1318930200</pstime>\n
+      \     <petime>1318930336</petime>\n      <rstime>1318930336</rstime>\n      <retime>1318930676</retime>\n
+      \     <estime>1318930676</estime>\n      <eetime>1318930680</eetime>\n      <reason>0</reason>\n
+      \     <id>7</id>\n      <name>one-7</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1318930177</stime>\n
+      \     <etime>1318930681</etime>\n    </slice>\n  </vm>\n  <vm id=\"18\">\n    <name></name>\n
+      \   <time>18754</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>168</net_rx>\n
+      \   <net_tx>28335</net_tx>\n    <slice seq=\"0\">\n      <vm_id>18</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1319007736</pstime>\n
+      \     <petime>1319007864</petime>\n      <rstime>1319007864</rstime>\n      <retime>1319026618</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>18</id>\n      <name>one-18</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1319007708</stime>\n
+      \     <etime>1319026618</etime>\n    </slice>\n  </vm>\n  <vm id=\"19\">\n    <name></name>\n
+      \   <time>18132</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>185</net_rx>\n
+      \   <net_tx>27341</net_tx>\n    <slice seq=\"0\">\n      <vm_id>19</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1319008296</pstime>\n
+      \     <petime>1319008487</petime>\n      <rstime>1319008487</rstime>\n      <retime>1319026619</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>19</id>\n      <name>one-18_0</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1319008291</stime>\n
+      \     <etime>1319026619</etime>\n    </slice>\n  </vm>\n  <vm id=\"20\">\n    <name></name>\n
+      \   <time>17939</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>153</net_rx>\n
+      \   <net_tx>26582</net_tx>\n    <slice seq=\"0\">\n      <vm_id>20</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1319008343</pstime>\n
+      \     <petime>1319008679</petime>\n      <rstime>1319008679</rstime>\n      <retime>1319026618</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>20</id>\n      <name>one-18_1</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1319008291</stime>\n
+      \     <etime>1319026618</etime>\n    </slice>\n  </vm>\n  <vm id=\"21\">\n    <name></name>\n
+      \   <time>17807</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>139</net_rx>\n
+      \   <net_tx>26569</net_tx>\n    <slice seq=\"0\">\n      <vm_id>21</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1319008385</pstime>\n
+      \     <petime>1319008813</petime>\n      <rstime>1319008813</rstime>\n      <retime>1319026620</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>21</id>\n      <name>one-18_5</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1319008292</stime>\n
+      \     <etime>1319026621</etime>\n    </slice>\n  </vm>\n  <vm id=\"22\">\n    <name></name>\n
+      \   <time>17721</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>125</net_rx>\n
+      \   <net_tx>26286</net_tx>\n    <slice seq=\"0\">\n      <vm_id>22</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1319008430</pstime>\n
+      \     <petime>1319008899</petime>\n      <rstime>1319008899</rstime>\n      <retime>1319026620</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>22</id>\n      <name>one-18_3</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1319008292</stime>\n
+      \     <etime>1319026620</etime>\n    </slice>\n  </vm>\n  <vm id=\"23\">\n    <name></name>\n
+      \   <time>17707</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>162</net_rx>\n
+      \   <net_tx>26304</net_tx>\n    <slice seq=\"0\">\n      <vm_id>23</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1319008476</pstime>\n
+      \     <petime>1319008914</petime>\n      <rstime>1319008914</rstime>\n      <retime>1319026621</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>23</id>\n      <name>one-18_2</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1319008292</stime>\n
+      \     <etime>1319026622</etime>\n    </slice>\n  </vm>\n  <vm id=\"24\">\n    <name></name>\n
+      \   <time>17698</time>\n    <cpu>0.5</cpu>\n    <mem>512</mem>\n    <net_rx>146</net_rx>\n
+      \   <net_tx>26323</net_tx>\n    <slice seq=\"0\">\n      <vm_id>24</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1319008526</pstime>\n
+      \     <petime>1319008925</petime>\n      <rstime>1319008925</rstime>\n      <retime>1319026623</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>24</id>\n      <name>one-18_4</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.5</cpu>\n      <vcpu>1</vcpu>\n      <stime>1319008292</stime>\n
+      \     <etime>1319026623</etime>\n    </slice>\n  </vm>\n  <vm id=\"25\">\n    <name></name>\n
+      \   <time>11</time>\n    <cpu>1.0</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>25</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1320052755</pstime>\n
+      \     <petime>1320052881</petime>\n      <rstime>1320052881</rstime>\n      <retime>1320052892</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>25</id>\n      <name>one-25</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1320052729</stime>\n
+      \     <etime>1320052916</etime>\n    </slice>\n  </vm>\n  <vm id=\"26\">\n    <name></name>\n
+      \   <time>20227</time>\n    <cpu>1.0</cpu>\n    <mem>512</mem>\n    <net_rx>185</net_rx>\n
+      \   <net_tx>32951</net_tx>\n    <slice seq=\"0\">\n      <vm_id>26</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1320052972</pstime>\n
+      \     <petime>1320053100</petime>\n      <rstime>1320053100</rstime>\n      <retime>1320073327</retime>\n
+      \     <estime>1320073327</estime>\n      <eetime>1320073329</eetime>\n      <reason>0</reason>\n
+      \     <id>26</id>\n      <name>one-26</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>512</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1320052961</stime>\n
+      \     <etime>1320073329</etime>\n    </slice>\n  </vm>\n  <vm id=\"28\">\n    <name></name>\n
+      \   <time>182</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>28</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1320081993</pstime>\n
+      \     <petime>1320082388</petime>\n      <rstime>1320082388</rstime>\n      <retime>1320082570</retime>\n
+      \     <estime>1320082570</estime>\n      <eetime>1320082574</eetime>\n      <reason>0</reason>\n
+      \     <id>28</id>\n      <name>one-28</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1320081968</stime>\n
+      \     <etime>1320082574</etime>\n    </slice>\n  </vm>\n  <vm id=\"32\">\n    <name></name>\n
+      \   <time>217</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>32</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321199269</pstime>\n
+      \     <petime>1321199332</petime>\n      <rstime>1321199332</rstime>\n      <retime>1321199335</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>32</id>\n      <name>one-32</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321199266</stime>\n
+      \     <etime>1321199336</etime>\n    </slice>\n    <slice seq=\"1\">\n      <vm_id>32</vm_id>\n
+      \     <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n      <seq>1</seq>\n
+      \     <pstime>1321200620</pstime>\n      <petime>1321200685</petime>\n      <rstime>1321200685</rstime>\n
+      \     <retime>1321200899</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>32</id>\n      <name>one-32</name>\n      <uid>0</uid>\n
+      \     <gid>0</gid>\n      <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1321199266</stime>\n      <etime>1321199336</etime>\n    </slice>\n
+      \ </vm>\n  <vm id=\"33\">\n    <name></name>\n    <time>1447</time>\n    <cpu>1.0</cpu>\n
+      \   <mem>768</mem>\n    <net_rx>8</net_rx>\n    <net_tx>3952</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>33</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321256990</pstime>\n      <petime>1321257055</petime>\n
+      \     <rstime>1321257055</rstime>\n      <retime>1321258502</retime>\n      <estime>1321258502</estime>\n
+      \     <eetime>1321258502</eetime>\n      <reason>0</reason>\n      <id>33</id>\n
+      \     <name>one-33</name>\n      <uid>0</uid>\n      <gid>0</gid>\n      <mem>768</mem>\n
+      \     <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321256973</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"34\">\n    <name></name>\n
+      \   <time>464</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>34</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321258011</pstime>\n
+      \     <petime>1321258080</petime>\n      <rstime>1321258080</rstime>\n      <retime>1321258544</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>34</id>\n      <name>fc15_2</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321257989</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"35\">\n    <name></name>\n
+      \   <time>387</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>35</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321258080</pstime>\n
+      \     <petime>1321258157</petime>\n      <rstime>1321258157</rstime>\n      <retime>1321258544</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>35</id>\n      <name>fc15_0</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321257989</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"36\">\n    <name></name>\n
+      \   <time>312</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>36</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321258157</pstime>\n
+      \     <petime>1321258232</petime>\n      <rstime>1321258232</rstime>\n      <retime>1321258544</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>36</id>\n      <name>fc15_1</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321257990</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"37\">\n    <name></name>\n
+      \   <time>237</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>37</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321258233</pstime>\n
+      \     <petime>1321258307</petime>\n      <rstime>1321258307</rstime>\n      <retime>1321258544</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>37</id>\n      <name>fc15_3</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321257990</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"38\">\n    <name></name>\n
+      \   <time>1329588355</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>38</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321261759</pstime>\n
+      \     <petime>1321261826</petime>\n      <rstime>0</rstime>\n      <retime>0</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>1</reason>\n
+      \     <id>38</id>\n      <name>one-38</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1321261743</stime>\n
+      \     <etime>0</etime>\n    </slice>\n    <slice seq=\"1\">\n      <vm_id>38</vm_id>\n
+      \     <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n      <seq>1</seq>\n
+      \     <pstime>1321262006</pstime>\n      <petime>1321262070</petime>\n      <rstime>1321262070</rstime>\n
+      \     <retime>1321263713</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>38</id>\n      <name>one-38</name>\n      <uid>0</uid>\n
+      \     <gid>0</gid>\n      <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1321261743</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"39\">\n    <name></name>\n    <time>206</time>\n    <cpu>1.0</cpu>\n
+      \   <mem>512</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>39</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321269703</pstime>\n      <petime>1321269818</petime>\n
+      \     <rstime>1321269818</rstime>\n      <retime>1321270024</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>39</id>\n      <name>one-39</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321269694</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"40\">\n    <name></name>\n    <time>127</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>40</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321270068</pstime>\n      <petime>1321270181</petime>\n
+      \     <rstime>1321270181</rstime>\n      <retime>1321270308</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>40</id>\n      <name>one-40</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321270051</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"49\">\n    <name></name>\n    <time>214</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>49</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321634284</pstime>\n      <petime>1321634347</petime>\n
+      \     <rstime>1321634347</rstime>\n      <retime>1321634561</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>49</id>\n      <name>one-49</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>768</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321634255</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"50\">\n    <name></name>\n    <time>958</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>14</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>50</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321651684</pstime>\n      <petime>1321651749</petime>\n
+      \     <rstime>1321651749</rstime>\n      <retime>1321652707</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>50</id>\n      <name>fc15_3</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651658</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"51\">\n    <name></name>\n    <time>878</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>15</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>51</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321651749</pstime>\n      <petime>1321651829</petime>\n
+      \     <rstime>1321651829</rstime>\n      <retime>1321652707</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>51</id>\n      <name>fc15_0</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651658</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"52\">\n    <name></name>\n    <time>805</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>34480</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>52</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321651829</pstime>\n      <petime>1321651902</petime>\n
+      \     <rstime>1321651902</rstime>\n      <retime>1321652707</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>52</id>\n      <name>fc15_1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651658</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"53\">\n    <name></name>\n    <time>726</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>28015</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>53</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321651904</pstime>\n      <petime>1321651981</petime>\n
+      \     <rstime>1321651981</rstime>\n      <retime>1321652707</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>53</id>\n      <name>fc15_2</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651658</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"54\">\n    <name></name>\n    <time>8</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>54</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321651981</pstime>\n      <petime>1321652055</petime>\n
+      \     <rstime>1321652055</rstime>\n      <retime>1321652063</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>54</id>\n      <name>fc15_4</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651658</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"55\">\n    <name></name>\n    <time>141</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>55</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321652057</pstime>\n      <petime>1321652123</petime>\n
+      \     <rstime>1321652123</rstime>\n      <retime>1321652264</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>55</id>\n      <name>fc15_5</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651658</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"56\">\n    <name></name>\n    <time>155</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>56</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321652126</pstime>\n      <petime>1321652192</petime>\n
+      \     <rstime>1321652192</rstime>\n      <retime>1321652347</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>56</id>\n      <name>fc15_6</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651658</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"57\">\n    <name></name>\n    <time>180</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>57</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321652195</pstime>\n      <petime>1321652264</petime>\n
+      \     <rstime>1321652264</rstime>\n      <retime>1321652444</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>57</id>\n      <name>fc15_7</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321651659</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"58\">\n    <name></name>\n    <time>1371</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>10</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>58</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653044</pstime>\n      <petime>1321653108</petime>\n
+      \     <rstime>1321653108</rstime>\n      <retime>1321654479</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>58</id>\n      <name>fc15_0</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"59\">\n    <name></name>\n    <time>1286</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>11</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>59</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653111</pstime>\n      <petime>1321653193</petime>\n
+      \     <rstime>1321653193</rstime>\n      <retime>1321654479</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>59</id>\n      <name>fc15_1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"60\">\n    <name></name>\n    <time>1209</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>14</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>60</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653194</pstime>\n      <petime>1321653270</petime>\n
+      \     <rstime>1321653270</rstime>\n      <retime>1321654479</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>60</id>\n      <name>fc15_3</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"61\">\n    <name></name>\n    <time>1132</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>13</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>61</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653270</pstime>\n      <petime>1321653347</petime>\n
+      \     <rstime>1321653347</rstime>\n      <retime>1321654479</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>61</id>\n      <name>fc15_2</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"62\">\n    <name></name>\n    <time>1054</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>19</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>62</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653348</pstime>\n      <petime>1321653425</petime>\n
+      \     <rstime>1321653425</rstime>\n      <retime>1321654479</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>62</id>\n      <name>fc15_4</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"63\">\n    <name></name>\n    <time>976</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>11</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>63</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653425</pstime>\n      <petime>1321653503</petime>\n
+      \     <rstime>1321653503</rstime>\n      <retime>1321654479</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>63</id>\n      <name>fc15_5</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"64\">\n    <name></name>\n    <time>897</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>14</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>64</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653503</pstime>\n      <petime>1321653582</petime>\n
+      \     <rstime>1321653582</rstime>\n      <retime>1321654479</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>64</id>\n      <name>fc15_6</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"65\">\n    <name></name>\n    <time>820</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>13</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>65</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321653584</pstime>\n      <petime>1321653660</petime>\n
+      \     <rstime>1321653660</rstime>\n      <retime>1321654480</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>65</id>\n      <name>fc15_7</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321653040</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"66\">\n    <name></name>\n    <time>0</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>66</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321654522</pstime>\n      <petime>1321654590</petime>\n
+      \     <rstime>1321654590</rstime>\n      <retime>1321654590</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>66</id>\n      <name>fc15_0</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321654497</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"67\">\n    <name></name>\n    <time>1329586712</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>67</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321654590</pstime>\n      <petime>1321654660</petime>\n
+      \     <rstime>0</rstime>\n      <retime>0</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>67</id>\n      <name>fc15_1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321654497</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"68\">\n    <name></name>\n    <time>1329586712</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>68</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321654660</pstime>\n      <petime>1321654713</petime>\n
+      \     <rstime>0</rstime>\n      <retime>0</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>68</id>\n      <name>fc15_2</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321654497</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"69\">\n    <name></name>\n    <time>311794</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>15</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>69</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321654729</pstime>\n      <petime>1321654795</petime>\n
+      \     <rstime>1321654795</rstime>\n      <retime>1321966589</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>69</id>\n      <name>fc15_1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321654728</stime>\n      <etime>1321966589</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"70\">\n    <name></name>\n    <time>311710</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>10</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>70</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321654798</pstime>\n      <petime>1321654879</petime>\n
+      \     <rstime>1321654879</rstime>\n      <retime>1321966589</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>70</id>\n      <name>fc15_0</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321654728</stime>\n      <etime>1321966589</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"71\">\n    <name></name>\n    <time>311633</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>13</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>71</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321654879</pstime>\n      <petime>1321654956</petime>\n
+      \     <rstime>1321654956</rstime>\n      <retime>1321966589</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>71</id>\n      <name>fc15_2</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1321654728</stime>\n      <etime>1321966589</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"94\">\n    <name></name>\n    <time>70</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>94</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322654265</pstime>\n      <petime>1322654289</petime>\n
+      \     <rstime>1322654289</rstime>\n      <retime>1322654359</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>94</id>\n      <name>susetest1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1322654244</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"95\">\n    <name></name>\n    <time>265</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>95</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322654415</pstime>\n      <petime>1322654439</petime>\n
+      \     <rstime>1322654439</rstime>\n      <retime>1322654704</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>95</id>\n      <name>susetest1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1322654403</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"96\">\n    <name></name>\n    <time>1124</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>3</net_rx>\n    <net_tx>5172</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>96</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322654925</pstime>\n      <petime>1322654949</petime>\n
+      \     <rstime>1322654949</rstime>\n      <retime>1322656073</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>96</id>\n      <name>susetest1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1322654901</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"97\">\n    <name></name>\n    <time>650</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>6</net_rx>\n    <net_tx>5188</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>97</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322655405</pstime>\n      <petime>1322655428</petime>\n
+      \     <rstime>1322655428</rstime>\n      <retime>1322656078</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>97</id>\n      <name>susetest2</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1322655398</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"98\">\n    <name></name>\n    <time>331</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>6</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>98</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322656905</pstime>\n      <petime>1322656928</petime>\n
+      \     <rstime>1322656928</rstime>\n      <retime>1322657212</retime>\n      <estime>1322657212</estime>\n
+      \     <eetime>1322657212</eetime>\n      <reason>2</reason>\n      <id>98</id>\n
+      \     <name>susetest2</name>\n      <uid>0</uid>\n      <gid>100</gid>\n      <mem>256</mem>\n
+      \     <cpu>1.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1322656886</stime>\n
+      \     <etime>0</etime>\n    </slice>\n    <slice seq=\"1\">\n      <vm_id>98</vm_id>\n
+      \     <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n      <seq>1</seq>\n
+      \     <pstime>1322658795</pstime>\n      <petime>1322658795</petime>\n      <rstime>1322658795</rstime>\n
+      \     <retime>1322658842</retime>\n      <estime>1322658842</estime>\n      <eetime>1322658842</eetime>\n
+      \     <reason>0</reason>\n      <id>98</id>\n      <name>susetest2</name>\n
+      \     <uid>0</uid>\n      <gid>100</gid>\n      <mem>256</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1322656886</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"104\">\n    <name></name>\n    <time>93</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>104</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1327939042</pstime>\n      <petime>1327939068</petime>\n
+      \     <rstime>1327939068</rstime>\n      <retime>1327939161</retime>\n      <estime>1327939161</estime>\n
+      \     <eetime>1327939161</eetime>\n      <reason>0</reason>\n      <id>104</id>\n
+      \     <name>one-104</name>\n      <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1327939024</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"105\">\n    <name></name>\n
+      \   <time>3675</time>\n    <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>1471</net_rx>\n
+      \   <net_tx>12481387</net_tx>\n    <slice seq=\"0\">\n      <vm_id>105</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1328018803</pstime>\n      <petime>1328018838</petime>\n      <rstime>1328018838</rstime>\n
+      \     <retime>1328022513</retime>\n      <estime>1328022513</estime>\n      <eetime>1328022513</eetime>\n
+      \     <reason>0</reason>\n      <id>105</id>\n      <name>fedtest_0</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328018795</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"106\">\n    <name></name>\n    <time>3643</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>1105</net_rx>\n    <net_tx>12457257</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>106</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328018838</pstime>\n      <petime>1328018877</petime>\n
+      \     <rstime>1328018877</rstime>\n      <retime>1328022520</retime>\n      <estime>1328022520</estime>\n
+      \     <eetime>1328022520</eetime>\n      <reason>0</reason>\n      <id>106</id>\n
+      \     <name>fedtest_1</name>\n      <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1328018795</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"107\">\n    <name></name>\n
+      \   <time>3585</time>\n    <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>1104</net_rx>\n
+      \   <net_tx>9495666</net_tx>\n    <slice seq=\"0\">\n      <vm_id>107</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1328018877</pstime>\n      <petime>1328018915</petime>\n      <rstime>1328018915</rstime>\n
+      \     <retime>1328022500</retime>\n      <estime>1328022500</estime>\n      <eetime>1328022500</eetime>\n
+      \     <reason>0</reason>\n      <id>107</id>\n      <name>fedtest_2</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328018795</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"108\">\n    <name></name>\n    <time>990</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>1038</net_rx>\n    <net_tx>7632414</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>108</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328085993</pstime>\n      <petime>1328086025</petime>\n
+      \     <rstime>1328086025</rstime>\n      <retime>1328087015</retime>\n      <estime>1328087015</estime>\n
+      \     <eetime>1328087015</eetime>\n      <reason>0</reason>\n      <id>108</id>\n
+      \     <name>one-108</name>\n      <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1328085982</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"109\">\n    <name></name>\n
+      \   <time>80</time>\n    <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>109</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1328621363</pstime>\n
+      \     <petime>1328621363</petime>\n      <rstime>1328621363</rstime>\n      <retime>1328621443</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>109</id>\n      <name>one-109</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>256</mem>\n      <cpu>0.25</cpu>\n      <vcpu>1</vcpu>\n      <stime>1328621357</stime>\n
+      \     <etime>1328621443</etime>\n    </slice>\n  </vm>\n  <vm id=\"110\">\n
+      \   <name></name>\n    <time>136</time>\n    <cpu>0.25</cpu>\n    <mem>256</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>110</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1328621483</pstime>\n      <petime>1328621483</petime>\n      <rstime>1328621483</rstime>\n
+      \     <retime>1328621619</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>110</id>\n      <name>one-110</name>\n      <uid>0</uid>\n
+      \     <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1328621477</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"111\">\n    <name></name>\n    <time>201</time>\n    <cpu>0.25</cpu>\n
+      \   <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>111</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328621963</pstime>\n      <petime>1328621963</petime>\n
+      \     <rstime>1328621963</rstime>\n      <retime>1328622164</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>111</id>\n      <name>one-111</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328621953</stime>\n      <etime>1328622164</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"112\">\n    <name></name>\n    <time>200</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>112</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328622263</pstime>\n      <petime>1328622263</petime>\n
+      \     <rstime>1328622263</rstime>\n      <retime>1328622463</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>112</id>\n      <name>one-112</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328622237</stime>\n      <etime>1328622463</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"113\">\n    <name></name>\n    <time>3</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>113</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328631683</pstime>\n      <petime>1328631684</petime>\n
+      \     <rstime>1328631684</rstime>\n      <retime>1328631687</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>113</id>\n      <name>one-113</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328631667</stime>\n      <etime>1328631687</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"114\">\n    <name></name>\n    <time>0</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>114</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328631833</pstime>\n      <petime>1328631834</petime>\n
+      \     <rstime>1328631834</rstime>\n      <retime>1328631834</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>114</id>\n      <name>one-114</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328631812</stime>\n      <etime>1328633108</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"115\">\n    <name></name>\n    <time>71</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>115</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328632073</pstime>\n      <petime>1328632112</petime>\n
+      \     <rstime>1328632112</rstime>\n      <retime>1328632183</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>115</id>\n      <name>one-115</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328632055</stime>\n      <etime>1328632183</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"116\">\n    <name></name>\n    <time>0</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>116</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328633372</pstime>\n      <petime>1328633373</petime>\n
+      \     <rstime>1328633373</rstime>\n      <retime>1328633373</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>116</id>\n      <name>one-116</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328633363</stime>\n      <etime>1328634243</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"117\">\n    <name></name>\n    <time>237</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>117</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328634452</pstime>\n      <petime>1328634453</petime>\n
+      \     <rstime>1328634453</rstime>\n      <retime>1328634550</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>117</id>\n      <name>one-117</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328634427</stime>\n      <etime>1328634713</etime>\n
+      \   </slice>\n    <slice seq=\"1\">\n      <vm_id>117</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>1</seq>\n      <pstime>1328634572</pstime>\n
+      \     <petime>1328634573</petime>\n      <rstime>1328634573</rstime>\n      <retime>1328634713</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>117</id>\n      <name>one-117</name>\n      <uid>0</uid>\n      <gid>0</gid>\n
+      \     <mem>256</mem>\n      <cpu>0.25</cpu>\n      <vcpu>1</vcpu>\n      <stime>1328634427</stime>\n
+      \     <etime>1328634713</etime>\n    </slice>\n  </vm>\n  <vm id=\"118\">\n
+      \   <name></name>\n    <time>135</time>\n    <cpu>0.25</cpu>\n    <mem>256</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>118</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1328636372</pstime>\n      <petime>1328636373</petime>\n      <rstime>1328636373</rstime>\n
+      \     <retime>1328636508</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>118</id>\n      <name>one-118</name>\n      <uid>0</uid>\n
+      \     <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1328636342</stime>\n      <etime>1328636508</etime>\n    </slice>\n
+      \ </vm>\n  <vm id=\"119\">\n    <name></name>\n    <time>1</time>\n    <cpu>0.25</cpu>\n
+      \   <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>119</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328636552</pstime>\n      <petime>1328636553</petime>\n
+      \     <rstime>1328636553</rstime>\n      <retime>1328636554</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>119</id>\n      <name>one-119</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328636540</stime>\n      <etime>1328636587</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"120\">\n    <name></name>\n    <time>130</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>120</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328637242</pstime>\n      <petime>1328637243</petime>\n
+      \     <rstime>1328637243</rstime>\n      <retime>1328637373</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>120</id>\n      <name>one-120</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328637214</stime>\n      <etime>1328637373</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"121\">\n    <name></name>\n    <time>282</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>121</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328645552</pstime>\n      <petime>1328645553</petime>\n
+      \     <rstime>1328645553</rstime>\n      <retime>1328645835</retime>\n      <estime>1328645835</estime>\n
+      \     <eetime>1328645835</eetime>\n      <reason>2</reason>\n      <id>121</id>\n
+      \     <name>one-121</name>\n      <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n
+      \     <cpu>0.25</cpu>\n      <vcpu>1</vcpu>\n      <stime>1328645538</stime>\n
+      \     <etime>1328646342</etime>\n    </slice>\n  </vm>\n  <vm id=\"122\">\n
+      \   <name></name>\n    <time>91</time>\n    <cpu>0.25</cpu>\n    <mem>256</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>122</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1328646722</pstime>\n      <petime>1328646723</petime>\n      <rstime>1328646723</rstime>\n
+      \     <retime>1328646814</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>122</id>\n      <name>one-122</name>\n      <uid>0</uid>\n
+      \     <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1328646700</stime>\n      <etime>1328646814</etime>\n    </slice>\n
+      \ </vm>\n  <vm id=\"123\">\n    <name></name>\n    <time>6021</time>\n    <cpu>0.25</cpu>\n
+      \   <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>123</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328646962</pstime>\n      <petime>1328646963</petime>\n
+      \     <rstime>1328646963</rstime>\n      <retime>1328652984</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>123</id>\n      <name>mon_1</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"124\">\n    <name></name>\n    <time>5992</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>124</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328646992</pstime>\n      <petime>1328646993</petime>\n
+      \     <rstime>1328646993</rstime>\n      <retime>1328652985</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>124</id>\n      <name>mon_0</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"125\">\n    <name></name>\n    <time>5962</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>125</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647022</pstime>\n      <petime>1328647023</petime>\n
+      \     <rstime>1328647023</rstime>\n      <retime>1328652985</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>125</id>\n      <name>mon_2</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"126\">\n    <name></name>\n    <time>5931</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>126</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647052</pstime>\n      <petime>1328647053</petime>\n
+      \     <rstime>1328647053</rstime>\n      <retime>1328652984</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>126</id>\n      <name>mon_3</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"127\">\n    <name></name>\n    <time>5902</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>127</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647082</pstime>\n      <petime>1328647083</petime>\n
+      \     <rstime>1328647083</rstime>\n      <retime>1328652985</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>127</id>\n      <name>mon_5</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"128\">\n    <name></name>\n    <time>5872</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>128</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647112</pstime>\n      <petime>1328647113</petime>\n
+      \     <rstime>1328647113</rstime>\n      <retime>1328652985</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>128</id>\n      <name>mon_4</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"129\">\n    <name></name>\n    <time>5842</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>129</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647142</pstime>\n      <petime>1328647143</petime>\n
+      \     <rstime>1328647143</rstime>\n      <retime>1328652985</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>129</id>\n      <name>mon_6</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"130\">\n    <name></name>\n    <time>5812</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>130</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647172</pstime>\n      <petime>1328647173</petime>\n
+      \     <rstime>1328647173</rstime>\n      <retime>1328652985</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>130</id>\n      <name>mon_7</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"131\">\n    <name></name>\n    <time>5783</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>131</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647202</pstime>\n      <petime>1328647203</petime>\n
+      \     <rstime>1328647203</rstime>\n      <retime>1328652986</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>131</id>\n      <name>mon_8</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646941</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"132\">\n    <name></name>\n    <time>5753</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>132</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647232</pstime>\n      <petime>1328647233</petime>\n
+      \     <rstime>1328647233</rstime>\n      <retime>1328652986</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>132</id>\n      <name>mon_9</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646942</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"133\">\n    <name></name>\n    <time>5729</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>2</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>133</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647262</pstime>\n      <petime>1328647263</petime>\n
+      \     <rstime>1328647263</rstime>\n      <retime>1328652992</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>133</id>\n      <name>mon_10</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646942</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"134\">\n    <name></name>\n    <time>5698</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>134</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647292</pstime>\n      <petime>1328647293</petime>\n
+      \     <rstime>1328647293</rstime>\n      <retime>1328652991</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>134</id>\n      <name>mon_11</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646942</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"135\">\n    <name></name>\n    <time>5668</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>135</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647322</pstime>\n      <petime>1328647323</petime>\n
+      \     <rstime>1328647323</rstime>\n      <retime>1328652991</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>135</id>\n      <name>mon_12</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646942</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"136\">\n    <name></name>\n    <time>5638</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>136</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647352</pstime>\n      <petime>1328647353</petime>\n
+      \     <rstime>1328647353</rstime>\n      <retime>1328652991</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>136</id>\n      <name>mon_13</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646942</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"137\">\n    <name></name>\n    <time>5609</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>137</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647382</pstime>\n      <petime>1328647383</petime>\n
+      \     <rstime>1328647383</rstime>\n      <retime>1328652992</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>137</id>\n      <name>mon_14</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646942</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"138\">\n    <name></name>\n    <time>5578</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>138</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328647412</pstime>\n      <petime>1328647413</petime>\n
+      \     <rstime>1328647413</rstime>\n      <retime>1328652991</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>138</id>\n      <name>mon_15</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1328646942</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"144\">\n    <name></name>\n    <time>4399</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>78</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>144</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329043824</pstime>\n      <petime>1329043826</petime>\n
+      \     <rstime>1329043826</rstime>\n      <retime>1329048225</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>144</id>\n      <name>one-144</name>\n
+      \     <uid>0</uid>\n      <gid>0</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1329043802</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n</user>\n<user id=\"3\">\n  <vm id=\"27\">\n    <name></name>\n
+      \   <time>1560</time>\n    <cpu>1.0</cpu>\n    <mem>768</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>3</net_tx>\n    <slice seq=\"0\">\n      <vm_id>27</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1320059577</pstime>\n
+      \     <petime>1320059993</petime>\n      <rstime>1320059993</rstime>\n      <retime>1320061553</retime>\n
+      \     <estime>1320061553</estime>\n      <eetime>1320061557</eetime>\n      <reason>0</reason>\n
+      \     <id>27</id>\n      <name>one-27</name>\n      <uid>3</uid>\n      <gid>100</gid>\n
+      \     <mem>768</mem>\n      <cpu>1.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1320059550</stime>\n
+      \     <etime>1320061557</etime>\n    </slice>\n  </vm>\n  <vm id=\"29\">\n    <name></name>\n
+      \   <time>5052</time>\n    <cpu>0.2</cpu>\n    <mem>256</mem>\n    <net_rx>41</net_rx>\n
+      \   <net_tx>8956</net_tx>\n    <slice seq=\"0\">\n      <vm_id>29</vm_id>\n
+      \     <hid>1</hid>\n      <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1320142369</pstime>\n
+      \     <petime>1320142793</petime>\n      <rstime>1320142793</rstime>\n      <retime>1320147845</retime>\n
+      \     <estime>1320147845</estime>\n      <eetime>1320147856</eetime>\n      <reason>0</reason>\n
+      \     <id>29</id>\n      <name>eco-vm</name>\n      <uid>3</uid>\n      <gid>100</gid>\n
+      \     <mem>256</mem>\n      <cpu>0.2</cpu>\n      <vcpu>0</vcpu>\n      <stime>1320142364</stime>\n
+      \     <etime>1320147862</etime>\n    </slice>\n  </vm>\n  <vm id=\"30\">\n    <name></name>\n
+      \   <time>1823</time>\n    <cpu>1.0</cpu>\n    <mem>1024</mem>\n    <net_rx>2</net_rx>\n
+      \   <net_tx>830</net_tx>\n    <slice seq=\"0\">\n      <vm_id>30</vm_id>\n      <hid>1</hid>\n
+      \     <hostname>aule</hostname>\n      <seq>0</seq>\n      <pstime>1320147640</pstime>\n
+      \     <petime>1320148088</petime>\n      <rstime>1320148088</rstime>\n      <retime>1320149911</retime>\n
+      \     <estime>1320149911</estime>\n      <eetime>1320149913</eetime>\n      <reason>0</reason>\n
+      \     <id>30</id>\n      <name>eco-vm</name>\n      <uid>3</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>1.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1320147630</stime>\n
+      \     <etime>1320149913</etime>\n    </slice>\n  </vm>\n</user>\n<user id=\"2\">\n
+      \ <vm id=\"47\">\n    <name></name>\n    <time>0</time>\n    <cpu>0.0</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>47</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321453144</pstime>\n      <petime>1321453144</petime>\n
+      \     <rstime>1321453144</rstime>\n      <retime>1321453144</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>47</id>\n      <name>hubiktest</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1321453143</stime>\n      <etime>1321453220</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"48\">\n    <name></name>\n    <time>0</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>48</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321453204</pstime>\n      <petime>1321453204</petime>\n
+      \     <rstime>1321453204</rstime>\n      <retime>1321453204</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>48</id>\n      <name>one-48</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1321453183</stime>\n      <etime>1321453204</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"72\">\n    <name></name>\n    <time>6</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>2048</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>72</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321966408</pstime>\n      <petime>1321966429</petime>\n
+      \     <rstime>1321966429</rstime>\n      <retime>1321966435</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>1</reason>\n      <id>72</id>\n      <name>one-72</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>2048</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1321966386</stime>\n      <etime>1321966601</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"73\">\n    <name></name>\n    <time>85</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>2048</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>73</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321966738</pstime>\n      <petime>1321966760</petime>\n
+      \     <rstime>1321966760</rstime>\n      <retime>1321966845</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>73</id>\n      <name>one-73</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>2048</mem>\n      <cpu>1.0</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1321966726</stime>\n      <etime>1321966845</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"74\">\n    <name></name>\n    <time>155</time>\n
+      \   <cpu>1.0</cpu>\n    <mem>2048</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>74</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1321966858</pstime>\n      <petime>1321966877</petime>\n
+      \     <rstime>1321966877</rstime>\n      <retime>1321967032</retime>\n      <estime>1321967032</estime>\n
+      \     <eetime>1321967032</eetime>\n      <reason>0</reason>\n      <id>74</id>\n
+      \     <name>one-74</name>\n      <uid>2</uid>\n      <gid>100</gid>\n      <mem>2048</mem>\n
+      \     <cpu>1.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1321966855</stime>\n
+      \     <etime>1321967032</etime>\n    </slice>\n  </vm>\n  <vm id=\"75\">\n    <name></name>\n
+      \   <time>104</time>\n    <cpu>1.0</cpu>\n    <mem>2048</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>75</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1321967638</pstime>\n
+      \     <petime>1321967659</petime>\n      <rstime>1321967659</rstime>\n      <retime>1321967763</retime>\n
+      \     <estime>1321967763</estime>\n      <eetime>1321967763</eetime>\n      <reason>0</reason>\n
+      \     <id>75</id>\n      <name>one-75</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>2048</mem>\n      <cpu>1.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1321967636</stime>\n
+      \     <etime>1321967763</etime>\n    </slice>\n  </vm>\n  <vm id=\"76\">\n    <name></name>\n
+      \   <time>294</time>\n    <cpu>1.0</cpu>\n    <mem>2048</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>76</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322036428</pstime>\n
+      \     <petime>1322036448</petime>\n      <rstime>1322036448</rstime>\n      <retime>1322036742</retime>\n
+      \     <estime>1322036742</estime>\n      <eetime>1322036742</eetime>\n      <reason>0</reason>\n
+      \     <id>76</id>\n      <name>one-76</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>2048</mem>\n      <cpu>1.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1322036400</stime>\n
+      \     <etime>1322036742</etime>\n    </slice>\n  </vm>\n  <vm id=\"77\">\n    <name></name>\n
+      \   <time>751</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>18</net_tx>\n    <slice seq=\"0\">\n      <vm_id>77</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322039188</pstime>\n
+      \     <petime>1322039209</petime>\n      <rstime>1322039209</rstime>\n      <retime>1322039960</retime>\n
+      \     <estime>1322039960</estime>\n      <eetime>1322039960</eetime>\n      <reason>0</reason>\n
+      \     <id>77</id>\n      <name>one-77</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1322039158</stime>\n
+      \     <etime>1322039960</etime>\n    </slice>\n  </vm>\n  <vm id=\"78\">\n    <name></name>\n
+      \   <time>1129</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>15</net_tx>\n    <slice seq=\"0\">\n      <vm_id>78</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322040178</pstime>\n
+      \     <petime>1322040198</petime>\n      <rstime>1322040198</rstime>\n      <retime>1322041327</retime>\n
+      \     <estime>1322041327</estime>\n      <eetime>1322041327</eetime>\n      <reason>0</reason>\n
+      \     <id>78</id>\n      <name>one-78</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1322040155</stime>\n
+      \     <etime>1322041327</etime>\n    </slice>\n  </vm>\n  <vm id=\"79\">\n    <name></name>\n
+      \   <time>215</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>79</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322041348</pstime>\n
+      \     <petime>1322041366</petime>\n      <rstime>1322041366</rstime>\n      <retime>1322041581</retime>\n
+      \     <estime>1322041581</estime>\n      <eetime>1322041582</eetime>\n      <reason>0</reason>\n
+      \     <id>79</id>\n      <name>one-79</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1322041333</stime>\n
+      \     <etime>1322041582</etime>\n    </slice>\n  </vm>\n  <vm id=\"80\">\n    <name></name>\n
+      \   <time>100</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>80</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322041678</pstime>\n
+      \     <petime>1322041702</petime>\n      <rstime>1322041702</rstime>\n      <retime>1322041802</retime>\n
+      \     <estime>1322041802</estime>\n      <eetime>1322041802</eetime>\n      <reason>0</reason>\n
+      \     <id>80</id>\n      <name>one-80</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1322041675</stime>\n
+      \     <etime>1322041802</etime>\n    </slice>\n  </vm>\n  <vm id=\"81\">\n    <name></name>\n
+      \   <time>329</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>81</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322041858</pstime>\n
+      \     <petime>1322041876</petime>\n      <rstime>1322041876</rstime>\n      <retime>1322042205</retime>\n
+      \     <estime>1322042205</estime>\n      <eetime>1322042205</eetime>\n      <reason>0</reason>\n
+      \     <id>81</id>\n      <name>one-81</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>0</vcpu>\n      <stime>1322041833</stime>\n
+      \     <etime>1322042205</etime>\n    </slice>\n  </vm>\n  <vm id=\"82\">\n    <name></name>\n
+      \   <time>226</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>82</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322052630</pstime>\n
+      \     <petime>1322052653</petime>\n      <rstime>1322052653</rstime>\n      <retime>1322052879</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>82</id>\n      <name>suse_test</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1322052618</stime>\n
+      \     <etime>1322052879</etime>\n    </slice>\n  </vm>\n  <vm id=\"83\">\n    <name></name>\n
+      \   <time>89140</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>4278</net_rx>\n
+      \   <net_tx>525178</net_tx>\n    <slice seq=\"0\">\n      <vm_id>83</vm_id>\n
+      \     <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1322053110</pstime>\n      <petime>1322053131</petime>\n      <rstime>1322053131</rstime>\n
+      \     <retime>1322142271</retime>\n      <estime>1322142271</estime>\n      <eetime>1322142271</eetime>\n
+      \     <reason>0</reason>\n      <id>83</id>\n      <name>one-83</name>\n      <uid>2</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1322053089</stime>\n      <etime>1322142271</etime>\n    </slice>\n
+      \ </vm>\n  <vm id=\"87\">\n    <name></name>\n    <time>225</time>\n    <cpu>0.0</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>87</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322560141</pstime>\n      <petime>1322560165</petime>\n
+      \     <rstime>1322560165</rstime>\n      <retime>1322560390</retime>\n      <estime>1322560390</estime>\n
+      \     <eetime>1322560390</eetime>\n      <reason>0</reason>\n      <id>87</id>\n
+      \     <name>one-87</name>\n      <uid>2</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1322560113</stime>\n
+      \     <etime>1322560390</etime>\n    </slice>\n  </vm>\n  <vm id=\"89\">\n    <name></name>\n
+      \   <time>293</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>89</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1322572236</pstime>\n
+      \     <petime>1322572259</petime>\n      <rstime>1322572259</rstime>\n      <retime>1322572552</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>89</id>\n      <name>one-89</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1322572213</stime>\n
+      \     <etime>1322572552</etime>\n    </slice>\n  </vm>\n  <vm id=\"90\">\n    <name></name>\n
+      \   <time>1216</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>3</net_rx>\n
+      \   <net_tx>6970</net_tx>\n    <slice seq=\"0\">\n      <vm_id>90</vm_id>\n
+      \     <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1322572656</pstime>\n      <petime>1322572676</petime>\n      <rstime>1322572676</rstime>\n
+      \     <retime>1322573892</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>90</id>\n      <name>suse4testing_3</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1322572655</stime>\n      <etime>1322573892</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"91\">\n    <name></name>\n    <time>1181</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>2</net_rx>\n    <net_tx>3629</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>91</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322572686</pstime>\n      <petime>1322572711</petime>\n
+      \     <rstime>1322572711</rstime>\n      <retime>1322573892</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>91</id>\n      <name>suse4testing_2</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1322572656</stime>\n      <etime>1322573892</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"92\">\n    <name></name>\n    <time>1148</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>2</net_rx>\n    <net_tx>3576</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>92</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322572716</pstime>\n      <petime>1322572744</petime>\n
+      \     <rstime>1322572744</rstime>\n      <retime>1322573892</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>92</id>\n      <name>suse4testing_0</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1322572656</stime>\n      <etime>1322573892</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"93\">\n    <name></name>\n    <time>1116</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>3</net_rx>\n    <net_tx>3633</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>93</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322572746</pstime>\n      <petime>1322572776</petime>\n
+      \     <rstime>1322572776</rstime>\n      <retime>1322573892</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>93</id>\n      <name>suse4testing_1</name>\n
+      \     <uid>2</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1322572656</stime>\n      <etime>1322573892</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"102\">\n    <name></name>\n    <time>198</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>102</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1323164925</pstime>\n      <petime>1323164945</petime>\n
+      \     <rstime>1323164945</rstime>\n      <retime>1323165143</retime>\n      <estime>1323165143</estime>\n
+      \     <eetime>1323165144</eetime>\n      <reason>0</reason>\n      <id>102</id>\n
+      \     <name>one-102</name>\n      <uid>2</uid>\n      <gid>100</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1323164914</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"103\">\n    <name></name>\n
+      \   <time>136</time>\n    <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>103</vm_id>\n      <hid>2</hid>\n
+      \     <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1323166515</pstime>\n
+      \     <petime>1323166538</petime>\n      <rstime>1323166538</rstime>\n      <retime>1323166674</retime>\n
+      \     <estime>1323166674</estime>\n      <eetime>1323166674</eetime>\n      <reason>0</reason>\n
+      \     <id>103</id>\n      <name>one-103</name>\n      <uid>2</uid>\n      <gid>100</gid>\n
+      \     <mem>512</mem>\n      <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1323166503</stime>\n
+      \     <etime>1323166674</etime>\n    </slice>\n  </vm>\n</user>\n<user id=\"9\">\n
+      \ <vm id=\"85\">\n    <name></name>\n    <time>77647</time>\n    <cpu>0.0</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>4320</net_rx>\n    <net_tx>438801</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>85</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322139391</pstime>\n      <petime>1322139412</petime>\n
+      \     <rstime>1322139412</rstime>\n      <retime>1322217059</retime>\n      <estime>1322217059</estime>\n
+      \     <eetime>1322217059</eetime>\n      <reason>0</reason>\n      <id>85</id>\n
+      \     <name>one-85</name>\n      <uid>9</uid>\n      <gid>0</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1322139369</stime>\n
+      \     <etime>1322217059</etime>\n    </slice>\n  </vm>\n  <vm id=\"86\">\n    <name></name>\n
+      \   <time>77662</time>\n    <cpu>0.0</cpu>\n    <mem>1024</mem>\n    <net_rx>4321</net_rx>\n
+      \   <net_tx>438959</net_tx>\n    <slice seq=\"0\">\n      <vm_id>86</vm_id>\n
+      \     <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1322139451</pstime>\n      <petime>1322139475</petime>\n      <rstime>1322139475</rstime>\n
+      \     <retime>1322217137</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>86</id>\n      <name>one-86</name>\n      <uid>9</uid>\n
+      \     <gid>0</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1322139446</stime>\n      <etime>1322217137</etime>\n    </slice>\n
+      \ </vm>\n  <vm id=\"88\">\n    <name></name>\n    <time>432</time>\n    <cpu>0.0</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>88</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322560171</pstime>\n      <petime>1322560205</petime>\n
+      \     <rstime>1322560205</rstime>\n      <retime>1322560637</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>88</id>\n      <name>one-88</name>\n
+      \     <uid>9</uid>\n      <gid>0</gid>\n      <mem>1024</mem>\n      <cpu>0.0</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1322560161</stime>\n      <etime>1322560637</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"101\">\n    <name></name>\n    <time>927</time>\n
+      \   <cpu>0.0</cpu>\n    <mem>512</mem>\n    <net_rx>3</net_rx>\n    <net_tx>6168</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>101</vm_id>\n      <hid>2</hid>\n      <hostname>host1.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1322743425</pstime>\n      <petime>1322743448</petime>\n
+      \     <rstime>1322743448</rstime>\n      <retime>1322744375</retime>\n      <estime>1322744375</estime>\n
+      \     <eetime>1322744376</eetime>\n      <reason>0</reason>\n      <id>101</id>\n
+      \     <name>one-101</name>\n      <uid>9</uid>\n      <gid>0</gid>\n      <mem>512</mem>\n
+      \     <cpu>0.0</cpu>\n      <vcpu>1</vcpu>\n      <stime>1322743414</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n</user>\n<user id=\"24\">\n  <vm
+      id=\"139\">\n    <name></name>\n    <time>0</time>\n    <cpu>0.01</cpu>\n    <mem>0</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>139</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1328704706</pstime>\n      <petime>1328704708</petime>\n      <rstime>1328704708</rstime>\n
+      \     <retime>1328704708</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>1</reason>\n      <id>139</id>\n      <name>\"\"</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>0</mem>\n      <cpu>0.01</cpu>\n      <vcpu>0</vcpu>\n
+      \     <stime>1328704692</stime>\n      <etime>1328704857</etime>\n    </slice>\n
+      \ </vm>\n  <vm id=\"140\">\n    <name></name>\n    <time>89</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>140</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328721896</pstime>\n      <petime>1328721897</petime>\n
+      \     <rstime>1328721897</rstime>\n      <retime>1328721986</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>140</id>\n      <name>\"\"</name>\n
+      \     <uid>24</uid>\n      <gid>100</gid>\n      <mem>256</mem>\n      <cpu>0.01</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1328721870</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"141\">\n    <name></name>\n    <time>108</time>\n
+      \   <cpu>0.01</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>141</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328722076</pstime>\n      <petime>1328722077</petime>\n
+      \     <rstime>1328722077</rstime>\n      <retime>1328722185</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>141</id>\n      <name>\"\"</name>\n
+      \     <uid>24</uid>\n      <gid>100</gid>\n      <mem>256</mem>\n      <cpu>0.01</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1328722069</stime>\n      <etime>1328722185</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"142\">\n    <name></name>\n    <time>37</time>\n
+      \   <cpu>0.01</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>142</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328722886</pstime>\n      <petime>1328722887</petime>\n
+      \     <rstime>1328722887</rstime>\n      <retime>1328722924</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>142</id>\n      <name>\"\"</name>\n
+      \     <uid>24</uid>\n      <gid>100</gid>\n      <mem>256</mem>\n      <cpu>0.01</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1328722875</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"143\">\n    <name></name>\n    <time>91</time>\n
+      \   <cpu>0.01</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>143</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1328723006</pstime>\n      <petime>1328723007</petime>\n
+      \     <rstime>1328723007</rstime>\n      <retime>1328723098</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>143</id>\n      <name>\"\"</name>\n
+      \     <uid>24</uid>\n      <gid>100</gid>\n      <mem>256</mem>\n      <cpu>0.01</cpu>\n
+      \     <vcpu>0</vcpu>\n      <stime>1328722982</stime>\n      <etime>1328723098</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"145\">\n    <name></name>\n    <time>5716</time>\n
+      \   <cpu>0.25</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n    <net_tx>3</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>145</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329054474</pstime>\n      <petime>1329054475</petime>\n
+      \     <rstime>1329054475</rstime>\n      <retime>1329060191</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>145</id>\n      <name>one-145</name>\n
+      \     <uid>24</uid>\n      <gid>100</gid>\n      <mem>256</mem>\n      <cpu>0.25</cpu>\n
+      \     <vcpu>1</vcpu>\n      <stime>1329054469</stime>\n      <etime>0</etime>\n
+      \   </slice>\n  </vm>\n  <vm id=\"146\">\n    <name></name>\n    <time>972</time>\n
+      \   <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>72</net_tx>\n
+      \   <slice seq=\"0\">\n      <vm_id>146</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329089274</pstime>\n      <petime>1329089275</petime>\n
+      \     <rstime>1329089275</rstime>\n      <retime>1329090247</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>146</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329089255</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"147\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>147</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329089304</pstime>\n
+      \     <petime>1329089305</petime>\n      <rstime>1329089305</rstime>\n      <retime>1329089308</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>147</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329089280</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"148\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>148</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329089604</pstime>\n      <petime>1329089605</petime>\n
+      \     <rstime>1329089605</rstime>\n      <retime>1329089608</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>148</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329089582</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"149\">\n    <name></name>\n
+      \   <time>132</time>\n    <cpu>0.01</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>149</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329090114</pstime>\n
+      \     <petime>1329090115</petime>\n      <rstime>1329090115</rstime>\n      <retime>1329090247</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>149</id>\n      <name>\"\"</name>\n      <uid>24</uid>\n      <gid>100</gid>\n
+      \     <mem>256</mem>\n      <cpu>0.01</cpu>\n      <vcpu>0</vcpu>\n      <stime>1329090096</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"150\">\n    <name></name>\n
+      \   <time>110</time>\n    <cpu>0.01</cpu>\n    <mem>256</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>150</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329090414</pstime>\n
+      \     <petime>1329090415</petime>\n      <rstime>1329090415</rstime>\n      <retime>1329090525</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>150</id>\n      <name>\"\"</name>\n      <uid>24</uid>\n      <gid>100</gid>\n
+      \     <mem>256</mem>\n      <cpu>0.01</cpu>\n      <vcpu>0</vcpu>\n      <stime>1329090409</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"151\">\n    <name></name>\n
+      \   <time>5</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>151</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329090504</pstime>\n
+      \     <petime>1329090505</petime>\n      <rstime>1329090505</rstime>\n      <retime>1329090510</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>151</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329090481</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"152\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>152</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329090744</pstime>\n      <petime>1329090745</petime>\n
+      \     <rstime>1329090745</rstime>\n      <retime>1329090748</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>152</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329090737</stime>\n
+      \     <etime>1329090748</etime>\n    </slice>\n  </vm>\n  <vm id=\"153\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>153</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329092304</pstime>\n      <petime>1329092305</petime>\n      <rstime>1329092305</rstime>\n
+      \     <retime>1329092308</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>153</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329092281</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"154\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>154</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329094104</pstime>\n
+      \     <petime>1329094105</petime>\n      <rstime>1329094105</rstime>\n      <retime>1329094108</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>154</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329094082</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"155\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>155</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329095904</pstime>\n      <petime>1329095905</petime>\n
+      \     <rstime>1329095905</rstime>\n      <retime>1329095908</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>155</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329095882</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"156\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>156</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329097704</pstime>\n
+      \     <petime>1329097705</petime>\n      <rstime>1329097705</rstime>\n      <retime>1329097708</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>156</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329097681</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"157\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>157</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329099504</pstime>\n      <petime>1329099505</petime>\n
+      \     <rstime>1329099505</rstime>\n      <retime>1329099508</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>157</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329099481</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"158\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>158</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329101304</pstime>\n
+      \     <petime>1329101305</petime>\n      <rstime>1329101305</rstime>\n      <retime>1329101308</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>158</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329101281</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"159\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>159</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329103104</pstime>\n      <petime>1329103105</petime>\n
+      \     <rstime>1329103105</rstime>\n      <retime>1329103108</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>159</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329103081</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"160\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>160</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329104904</pstime>\n
+      \     <petime>1329104905</petime>\n      <rstime>1329104905</rstime>\n      <retime>1329104908</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>160</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329104881</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"161\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>161</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329106704</pstime>\n      <petime>1329106705</petime>\n
+      \     <rstime>1329106705</rstime>\n      <retime>1329106708</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>161</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329106681</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"162\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>162</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329108504</pstime>\n
+      \     <petime>1329108505</petime>\n      <rstime>1329108505</rstime>\n      <retime>1329108508</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>162</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329108481</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"163\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>163</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329110304</pstime>\n      <petime>1329110305</petime>\n
+      \     <rstime>1329110305</rstime>\n      <retime>1329110308</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>163</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329110281</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"164\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>164</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329112104</pstime>\n
+      \     <petime>1329112105</petime>\n      <rstime>1329112105</rstime>\n      <retime>1329112108</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>164</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329112082</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"165\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>165</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329113904</pstime>\n      <petime>1329113905</petime>\n
+      \     <rstime>1329113905</rstime>\n      <retime>1329113908</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>165</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329113881</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"166\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>166</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329117504</pstime>\n
+      \     <petime>1329117505</petime>\n      <rstime>1329117505</rstime>\n      <retime>1329117508</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>166</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329117481</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"167\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>167</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329119304</pstime>\n      <petime>1329119305</petime>\n
+      \     <rstime>1329119305</rstime>\n      <retime>1329119308</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>167</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329119281</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"168\">\n    <name></name>\n
+      \   <time>4</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>168</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329121104</pstime>\n
+      \     <petime>1329121105</petime>\n      <rstime>1329121105</rstime>\n      <retime>1329121109</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>168</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329121081</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"169\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>169</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329122904</pstime>\n      <petime>1329122905</petime>\n
+      \     <rstime>1329122905</rstime>\n      <retime>1329122908</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>169</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329122881</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"170\">\n    <name></name>\n
+      \   <time>4</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>170</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329124704</pstime>\n
+      \     <petime>1329124705</petime>\n      <rstime>1329124705</rstime>\n      <retime>1329124709</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>170</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329124682</stime>\n      <etime>0</etime>\n    </slice>\n  </vm>\n
+      \ <vm id=\"171\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>171</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329126504</pstime>\n      <petime>1329126505</petime>\n
+      \     <rstime>1329126505</rstime>\n      <retime>1329126508</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>171</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329126481</stime>\n
+      \     <etime>0</etime>\n    </slice>\n  </vm>\n  <vm id=\"172\">\n    <name></name>\n
+      \   <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n    <net_rx>0</net_rx>\n
+      \   <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>172</vm_id>\n      <hid>3</hid>\n
+      \     <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n      <pstime>1329130402</pstime>\n
+      \     <petime>1329130404</petime>\n      <rstime>1329130404</rstime>\n      <retime>1329130407</retime>\n
+      \     <estime>0</estime>\n      <eetime>0</eetime>\n      <reason>3</reason>\n
+      \     <id>172</id>\n      <name>FedCloud Nagios Probe VM</name>\n      <uid>24</uid>\n
+      \     <gid>100</gid>\n      <mem>1024</mem>\n      <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n
+      \     <stime>1329130383</stime>\n      <etime>1329130407</etime>\n    </slice>\n
+      \ </vm>\n  <vm id=\"173\">\n    <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n
+      \   <mem>1024</mem>\n    <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice
+      seq=\"0\">\n      <vm_id>173</vm_id>\n      <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n
+      \     <seq>0</seq>\n      <pstime>1329132202</pstime>\n      <petime>1329132203</petime>\n
+      \     <rstime>1329132203</rstime>\n      <retime>1329132206</retime>\n      <estime>0</estime>\n
+      \     <eetime>0</eetime>\n      <reason>3</reason>\n      <id>173</id>\n      <name>FedCloud
+      Nagios Probe VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329132181</stime>\n
+      \     <etime>1329132206</etime>\n    </slice>\n  </vm>\n  <vm id=\"174\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>174</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329134002</pstime>\n      <petime>1329134003</petime>\n      <rstime>1329134003</rstime>\n
+      \     <retime>1329134006</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>174</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329133982</stime>\n
+      \     <etime>1329134006</etime>\n    </slice>\n  </vm>\n  <vm id=\"175\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>175</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329135802</pstime>\n      <petime>1329135803</petime>\n      <rstime>1329135803</rstime>\n
+      \     <retime>1329135806</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>175</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329135781</stime>\n
+      \     <etime>1329135806</etime>\n    </slice>\n  </vm>\n  <vm id=\"176\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>176</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329137602</pstime>\n      <petime>1329137603</petime>\n      <rstime>1329137603</rstime>\n
+      \     <retime>1329137606</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>176</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329137581</stime>\n
+      \     <etime>1329137606</etime>\n    </slice>\n  </vm>\n  <vm id=\"177\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>177</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329139402</pstime>\n      <petime>1329139403</petime>\n      <rstime>1329139403</rstime>\n
+      \     <retime>1329139406</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>177</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329139381</stime>\n
+      \     <etime>1329139406</etime>\n    </slice>\n  </vm>\n  <vm id=\"178\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>178</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329141202</pstime>\n      <petime>1329141202</petime>\n      <rstime>1329141202</rstime>\n
+      \     <retime>1329141205</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>178</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329141181</stime>\n
+      \     <etime>1329141205</etime>\n    </slice>\n  </vm>\n  <vm id=\"179\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>179</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329143002</pstime>\n      <petime>1329143002</petime>\n      <rstime>1329143002</rstime>\n
+      \     <retime>1329143005</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>179</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329142981</stime>\n
+      \     <etime>1329143005</etime>\n    </slice>\n  </vm>\n  <vm id=\"180\">\n
+      \   <name></name>\n    <time>4</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>180</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329144802</pstime>\n      <petime>1329144803</petime>\n      <rstime>1329144803</rstime>\n
+      \     <retime>1329144807</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>180</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329144781</stime>\n
+      \     <etime>1329144807</etime>\n    </slice>\n  </vm>\n  <vm id=\"181\">\n
+      \   <name></name>\n    <time>4</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>181</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329146602</pstime>\n      <petime>1329146603</petime>\n      <rstime>1329146603</rstime>\n
+      \     <retime>1329146607</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>181</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329146582</stime>\n
+      \     <etime>1329146607</etime>\n    </slice>\n  </vm>\n  <vm id=\"182\">\n
+      \   <name></name>\n    <time>2</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>182</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329148402</pstime>\n      <petime>1329148403</petime>\n      <rstime>1329148403</rstime>\n
+      \     <retime>1329148405</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>182</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329148382</stime>\n
+      \     <etime>1329148405</etime>\n    </slice>\n  </vm>\n  <vm id=\"183\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>183</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329150202</pstime>\n      <petime>1329150202</petime>\n      <rstime>1329150202</rstime>\n
+      \     <retime>1329150205</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>183</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329150181</stime>\n
+      \     <etime>1329150205</etime>\n    </slice>\n  </vm>\n  <vm id=\"184\">\n
+      \   <name></name>\n    <time>4</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>184</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329152002</pstime>\n      <petime>1329152002</petime>\n      <rstime>1329152002</rstime>\n
+      \     <retime>1329152006</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>184</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329151981</stime>\n
+      \     <etime>1329152006</etime>\n    </slice>\n  </vm>\n  <vm id=\"185\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>185</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329153802</pstime>\n      <petime>1329153803</petime>\n      <rstime>1329153803</rstime>\n
+      \     <retime>1329153806</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>185</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329153780</stime>\n
+      \     <etime>1329153806</etime>\n    </slice>\n  </vm>\n  <vm id=\"186\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>186</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329155602</pstime>\n      <petime>1329155603</petime>\n      <rstime>1329155603</rstime>\n
+      \     <retime>1329155606</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>186</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329155581</stime>\n
+      \     <etime>1329155606</etime>\n    </slice>\n  </vm>\n  <vm id=\"187\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>187</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329157402</pstime>\n      <petime>1329157402</petime>\n      <rstime>1329157402</rstime>\n
+      \     <retime>1329157405</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>187</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329157381</stime>\n
+      \     <etime>1329157405</etime>\n    </slice>\n  </vm>\n  <vm id=\"188\">\n
+      \   <name></name>\n    <time>4</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>188</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329159202</pstime>\n      <petime>1329159202</petime>\n      <rstime>1329159202</rstime>\n
+      \     <retime>1329159206</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>188</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329159181</stime>\n
+      \     <etime>1329159206</etime>\n    </slice>\n  </vm>\n  <vm id=\"189\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>189</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329161002</pstime>\n      <petime>1329161002</petime>\n      <rstime>1329161002</rstime>\n
+      \     <retime>1329161005</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>189</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329160981</stime>\n
+      \     <etime>1329161005</etime>\n    </slice>\n  </vm>\n  <vm id=\"190\">\n
+      \   <name></name>\n    <time>4</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>190</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329162802</pstime>\n      <petime>1329162802</petime>\n      <rstime>1329162802</rstime>\n
+      \     <retime>1329162806</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>190</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329162781</stime>\n
+      \     <etime>1329162806</etime>\n    </slice>\n  </vm>\n  <vm id=\"191\">\n
+      \   <name></name>\n    <time>3</time>\n    <cpu>0.01</cpu>\n    <mem>1024</mem>\n
+      \   <net_rx>0</net_rx>\n    <net_tx>0</net_tx>\n    <slice seq=\"0\">\n      <vm_id>191</vm_id>\n
+      \     <hid>3</hid>\n      <hostname>host2.example.org</hostname>\n      <seq>0</seq>\n
+      \     <pstime>1329164602</pstime>\n      <petime>1329164602</petime>\n      <rstime>1329164602</rstime>\n
+      \     <retime>1329164605</retime>\n      <estime>0</estime>\n      <eetime>0</eetime>\n
+      \     <reason>3</reason>\n      <id>191</id>\n      <name>FedCloud Nagios Probe
+      VM</name>\n      <uid>24</uid>\n      <gid>100</gid>\n      <mem>1024</mem>\n
+      \     <cpu>0.01</cpu>\n      <vcpu>1</vcpu>\n      <stime>1329164581</stime>\n
+      \     <etime>1329164605</etime>\n    </slice>\n  </vm>\n</user>\n"
+    http_version: '1.1'
