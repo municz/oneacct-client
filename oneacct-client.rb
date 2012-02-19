@@ -51,10 +51,10 @@ begin
       puts xml_data.to_xml(:indent => 2)
 
     else
-      raise Exception.new "Unknown format!"
+      raise "Unknown format!"
   end
 
 rescue Exception => e
-  puts "Failed to get a valid response from the server."
+  puts "Failed to get a valid response from the server. " + e.message
   exit 1
 end

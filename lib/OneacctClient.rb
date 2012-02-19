@@ -64,7 +64,7 @@ class OneacctClient
     end
 
     if CloudClient::is_error?(res)
-      res
+      raise "Request failed: " + res.message
     else
       res.body
     end
@@ -83,7 +83,7 @@ class OneacctClient
       }
 
       if CloudClient::is_error?(res)
-        res
+        raise "Request failed: " + res.message
       else
         res.body
       end
