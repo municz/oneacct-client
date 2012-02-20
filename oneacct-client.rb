@@ -20,7 +20,6 @@ require 'rubygems'
 require 'bundler/setup'
 
 require 'json'
-require 'pp'
 require 'optparse'
 require 'nokogiri'
 
@@ -39,13 +38,24 @@ begin
   case options.format
     when :json
 
-      json_data = JSON.parse client.get_all_accounting_data
+      if options.for_user.nil? && options.to_time.nil? && options.from_time.nil?
+        json_data = JSON.parse client.get_all_accounting_data
+      else
+        json_data = JSON.parse client.get_specific_accoutning_data options.for_user, options.from_time, options.to_time
+      end
+
       puts JSON.pretty_generate json_data
 
     when :xml
 
-      xml_data = Nokogiri.XML(client.get_all_accounting_data) do |config|
-        config.default_xml.noblanks
+      if options.for_user.nil? && options.to_time.nil? && options.from_time.nil?
+        xml_data = Nokogiri.XML(client.get_all_accounting_data) do |config|
+          config.default_xml.noblanks
+        end
+      else
+        xml_data = Nokogiri.XML(client.get_specific_accoutning_data options.for_user, options.from_time, options.to_time) do |config|
+          config.default_xml.noblanks
+        end
       end
 
       puts xml_data.to_xml(:indent => 2)

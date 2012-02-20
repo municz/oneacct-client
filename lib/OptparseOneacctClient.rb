@@ -72,6 +72,18 @@ class OptparseOneacctClient
         options.format = format
       end
 
+      opts.on("-u", "--for-user [USER_ID]", Integer, "Get accounting data for a specific user") do |for_user|
+        options.for_user = for_user
+      end
+
+      opts.on("-f", "--from-time [UNIX_TIME]", Integer, "Get accounting data from specified time on") do |from_time|
+        options.from_time = from_time
+      end
+
+      opts.on("-t", "--to-time [UNIX_TIME]", Integer, "Get accounting data up until this time") do |to_time|
+        options.to_time = to_time
+      end
+
       opts.separator ""
       opts.separator "Session options:"
 

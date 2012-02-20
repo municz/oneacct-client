@@ -51,13 +51,18 @@ class OneacctClient
 
   end
 
-  def get_specific_accoutning_data(user = nil, from_time = nil, to_time = nil)
+  def get_specific_accoutning_data(for_user = nil, from_time = nil, to_time = nil)
 
     url = URI.parse(@endpoint)
 
     req = Net::HTTP::Post.new(url.path)
 
     req.basic_auth @oneauth[0], @oneauth[1]
+
+    req.body = ''
+    req.body += "for_user=" + for_user.to_s + "&" unless for_user.nil?
+    req.body += "from_time=" + from_time.to_s + "&" unless from_time.nil?
+    req.body += "to_time=" + to_time.to_s unless to_time.nil?
 
     res = CloudClient::http_start(url, @timeout) do |http|
       http.request(req)
